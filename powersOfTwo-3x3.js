@@ -2,7 +2,6 @@
  * Final Project
  * November 18, 2019
  * Name: Emily Mackay
- * Student ID: 100305076
 */
 
 
