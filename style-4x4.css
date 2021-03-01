@@ -1,0 +1,140 @@
+/* CPSC 1045-001
+ * Final Project
+ * November 18, 2019
+ * Name: Emily Mackay
+ * Student ID: 100305076
+*/
+
+body {
+  display: inline-grid;
+  grid-template-columns: 270px 800px auto;
+  grid-template-rows: auto auto;
+  background: rgb(129,139,160);
+  font-family: Arial;
+  color: white;
+}
+
+button {
+  background-color: rgb(185,191,202);
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(74,83,102);
+  margin: 5px;
+  margin-left: 15px;
+}
+
+button:hover {
+  background-color: white;
+  cursor: pointer;
+}
+
+.instructionsDiv {
+  grid-column: 0/3;
+  grid-row: 1/2;
+  color: rgb(222,225,231);
+}
+
+.instructionsDiv h1, .statsDiv h1, .levelsDiv h1 {
+  margin-bottom: 40px;
+  color: white;
+}
+
+.instructionsDiv h1 {
+  margin-left: 15px;
+}
+
+.instructionsDiv h2 {
+  margin-left: 15px;
+  color: rgb(74,83,102);
+}
+
+.instructionsDiv ul {
+  list-style-type: none;
+  margin-right: 10px;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 0;
+  font-size: 20px;
+}
+
+.instructionsDiv ul li {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 20px;
+}
+
+/* .instructionsDiv #levels {
+  font-size: 12px;
+  font-weight: bold;
+  color: rgb(74,83,102);
+  margin: 0px;
+} */
+
+.canvasDiv {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+
+.statsDiv {
+  grid-column: 3/3;
+  grid-row: 1/2;
+  padding-left: 25px;
+}
+
+.statsDiv h1 {
+  margin-bottom: 40px;
+}
+
+.statsDiv div {
+  color: rgb(74,83,102);
+  font-size: 22px;
+  font-weight: bolder;
+  margin-top: 30px;
+}
+
+.statsDiv p {
+  color: rgb(222,225,231);
+  font-size: 30px;
+  font-weight: bolder;
+  margin: 0px;
+  margin-top: 8px;
+}
+
+.statsDiv button {
+  margin: 0px;
+}
+
+
+.messageDiv {
+  grid-column: 2/3;
+  grid-row: 2/2;
+}
+
+.messageDiv p {
+  color: rgb(222,225,231);
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* .levelsDiv {
+  grid-column: 4/4;
+  grid-row: 1/1;
+}
+
+.levelsDiv ul {
+  list-style-type: none;
+  color: rgb(74,83,102);
+  font-size: 22px;
+  font-weight: bold;
+  padding-left: 0px;
+}
+
+.levelsDiv ul li {
+  padding-bottom: 40px;
+} */
